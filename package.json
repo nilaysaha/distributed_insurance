@@ -1,0 +1,28 @@
+{
+  "name": "distributed_insurance",
+  "version": "1.0.0",
+  "description": "verifiable credential for insurance",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilaysaha/distributed_insurance.git"
+  },
+  "keywords": [
+    "did"
+  ],
+  "author": "nsha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilaysaha/distributed_insurance/issues"
+  },
+  "homepage": "https://github.com/nilaysaha/distributed_insurance#readme",
+  "dependencies": {
+    "ecdsa-secp256k1-signature-2019": "^1.0.1",
+    "jsonld-signatures": "^6.0.0",
+    "secp256k1-key-pair": "^1.1.0",
+    "vc-js": "^0.6.4"
+  }
+}
