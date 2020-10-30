@@ -13,7 +13,7 @@ To execute this repo, follow these steps:
 The output is a set of contracts which can be commited to immutable ledger.
 
 Sample output:
-
+```
 {
   "@context": [
     "https://www.w3.org/2018/credentials/v1",
@@ -87,3 +87,4 @@ Sample output:
     "verificationMethod": "https://example.edu/issuers/keys/1"
   }
 }
+```
