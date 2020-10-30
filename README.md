@@ -5,10 +5,10 @@ It relies on the schema document src/cc_test.json and the sample document creato
 
 To execute this repo, follow these steps:
 
-1> Clone this repo.
-2> npm install
-3> cd src
-4> node test_v2.js
+- Clone this repo.
+- npm install
+-  cd src
+- node test_v2.js
 
 The output is a set of contracts which can be commited to immutable ledger.
 
