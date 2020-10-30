@@ -4,7 +4,7 @@ const EcdsaSepc256k1Signature2019 = require('ecdsa-secp256k1-signature-2019');
 async function getSuite(id, controller) {
     const keyPair = await Secp256k1KeyPair.generate();
 
-    console.log(keyPair)
+//    console.log(keyPair)
 
     keyPair.id = id
     keyPair.controller = controller
@@ -17,7 +17,7 @@ async function getSuite(id, controller) {
 	key: keyPair
     });
 
-    console.log(suite)
+  //  console.log(suite)
     return suite
 }
 
