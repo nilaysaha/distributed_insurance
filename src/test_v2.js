@@ -82,7 +82,6 @@ const insurance_claim_credential = (insurance_did) => {
 
 async function generateSignedVC() {
     try {
-	console.log("hello there!")
 	var id = 'https://example.edu/issuers/keys/1'; // See Key ID section
 	var controller = 'https://example.com/i/carol'; // See Controller Document section
 	var suite = await kp.getSuite(id, controller)
@@ -103,7 +102,6 @@ async function generateSignedVC() {
 
 
 if (require.main === module) {
-    console.log('called directly');
     (async () => {
 	await generateSignedVC()
     })()
